@@ -1,0 +1,14 @@
+Report Of CS315 - HW2 -
+
+	In python language we can use default parameters decleration. If we use default parameters, one default parameter 
+have to follow another default parameters. Otherwise interpreter gives error. Also parameter positions are important
+I declared function1 and I tried with different sequences and outputs were different. In python parameter passing was 
+hard part for me. Because if I changed list global variable of list changed but normal variables assignment did not change
+the global variables. Javascript and PHP has same attributes but only syntax was different.
+
+	In C language no default parameters but C type language which C++ has feature of default parameters decleration.
+In C type languages user have to use pointers for change the global variables but sometimes follow the pointers can 
+be hard and sometimes side effects occurred. You do not want to change global variables but if you use pointers, 
+function can change the global variable.
+
+	I learned these 5 languages parameters passing systems. And it was good practice for coding.

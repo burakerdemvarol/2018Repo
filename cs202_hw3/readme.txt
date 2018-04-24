@@ -1,0 +1,3 @@
+--In q3 file user need to give input file for run the program. And then you can use makefile.
+--In q2 file all needed files gave by author. Just run the make file.
+--Thank you for testing.

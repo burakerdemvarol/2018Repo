@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+	<head><h2>Homework -2- JavaScript</h2></head>
+	<body>
+	<script>
+		
+		function func1(a=42,b=55){
+			return  a + b;
+		}
+
+		document.write ("1.Parameters Default Values");
+		document.write (" Result: " + func1());
+		document.write("<br>");
+		document.write ("2.Variable Number of Actual Parameter");
+		document.write (" Result: " + func1(1,2));	
+		document.write("<br>");
+		document.write ("3.Positional" );
+		document.write (" Result: " + func1(2,1));
+		document.write("<br>");
+		document.write ("4.Keyword" );
+		document.write (" Result: " + func1(3));
+		document.write("<br>");
+		document.write ("5.Combination" );
+		document.write (" Result: " + func1(7+12,12-9));
+		document.write("<br>");
+		function func2(a, b){
+			return a + "," + b;
+		}
+		
+		function func3(a, b){
+			return  a[0] + "," + b[0];
+		}
+		var t = 35;
+		var l = 50;
+		document.write ("6.Pass by value");	
+		document.write (" Result x and y : " + func2(t,l)); // return x and y values from values
+		document.write("<br>");
+		var c = [15]; // static variables
+		var d = [25];
+		document.write ("7.Pass by reference");		
+		document.write (" Result c and d : " + func3(c,d)); // return variables values from adresses
+		document.write("<br>");
+	</script>
+	</body>
+</html>
